@@ -79,6 +79,11 @@
       "value": "🚀,🌎",
       "required": true 
     },
+   "AUTO_REACT_STATUS": {
+      "description": "Enter yes for your bot to auto like status",
+      "value": "yes",
+      "required": true 
+    },
     "OWNER_NAME": {
       "description": "Owner name",
       "value": "Ibrahim Adams",
@@ -109,7 +114,7 @@
       "value": "yes",
       "required": false
     },	  
-    "GROUPANTILINK_REMOVE": {
+    "GROUPANTILINK": {
       "description": "Enable anti-link in groups (yes/no)",
       "value": "yes",
       "required": false
