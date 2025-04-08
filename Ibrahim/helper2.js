@@ -1,3 +1,4 @@
+
 // utils/contextManager.js
 const NEWS_LETTER_JID = "120363285388090068@newsletter";
 const BOT_NAME = "BWM-XMD";
