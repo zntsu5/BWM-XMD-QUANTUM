@@ -14,7 +14,7 @@
       "value": ".",
       "required": true
     },
-    "AUTO_REACT": {
+    "AUTO_REJECT_CALL": {
       "description": "Enter yes for your bot to auto react",
       "value": "no",
       "required": false
