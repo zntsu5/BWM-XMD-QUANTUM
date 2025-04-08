@@ -77,12 +77,12 @@
    "STATUS_REACT_EMOJIS": {
       "description": "Enter your auto like status emojis",
       "value": "🚀,🌎",
-      "required": true 
+      "required": false 
     },
    "AUTO_REACT_STATUS": {
       "description": "Enter yes for your bot to auto like status",
       "value": "yes",
-      "required": true 
+      "required": false 
     },
     "OWNER_NAME": {
       "description": "Owner name",
