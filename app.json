@@ -60,12 +60,12 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Your Heroku API key (optional)",
+      "description": "Enter your Heroku API key to be able to control your vars",
       "value": "",
       "required": true 
     },
     "HEROKU_APP_NAME": {
-      "description": "Your Heroku app name (optional)",
+      "description": "Enter your Heroku app name to be able to control vars",
       "value": "",
       "required": true 
     },
