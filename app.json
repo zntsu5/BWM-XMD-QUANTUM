@@ -119,11 +119,6 @@
       "value": "yes",
       "required": false
     },
-   "GROUPANTILINK_DELETE_ONLY": {
-      "description": "Enable anti-link in groups (yes/no)",
-      "value": "no",
-      "required": false
-    },	  
     "CHATBOT": {
       "description": "Enable text chatbot (yes/no)",
       "value": "no",
