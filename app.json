@@ -111,7 +111,7 @@
     },
    "ANTIDELETE_RECOVER_CONVENTION": {
       "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },	  
     "GROUPANTILINK": {
