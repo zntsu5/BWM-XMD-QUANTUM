@@ -74,6 +74,11 @@
       "value": "🚀,🌎",
       "required": false 
     },
+    "AUTO_REACT": {
+      "description": "Enter your auto react messages",
+      "value": "no",
+      "required": false 
+    },
    "AUTO_REACT_STATUS": {
       "description": "Enter yes for your bot to auto like status",
       "value": "yes",
