@@ -18,11 +18,6 @@
       "value": "no",
       "required": false
     },
-    "ANTICALL": {
-      "description": "Enter yes for your bot to auto reject calls",
-      "value": "no", 
-      "required": false
-    },
     "AUTO_BIO": {
       "description": "Enter yes for your bot to auto update bio",
       "value": "yes",
@@ -125,6 +120,16 @@
     },	  
     "CHATBOT": {
       "description": "Enable text chatbot (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "WELCOME_MESSAGE": {
+      "description": "Enable welcoming message in groups (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "GOODBYE_MESSAGE": {
+      "description": "Enable  goodbye in groups (yes/no)",
       "value": "no",
       "required": false
     },
